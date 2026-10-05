@@ -86,7 +86,7 @@ images/
 ### Notes
 Product photos and the logo belong to their respective owners and are used here for demonstration only. 
 The team photo from the original site is omitted for privacy.
-Author
 
+Author
 Sophia Puterman Ghitelman, Computer Engineering at Boston University 
-2025
+
