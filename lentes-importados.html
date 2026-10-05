@@ -1,0 +1,109 @@
+<!-- IN PROGRESS -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lentes Importados | Laboratorios Multilente</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo"><i class="">
+            </i><img src="images/logo.png" alt="Multilente Logo" style="height: 40px;"></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Inicio</a>
+                </li>                             
+                <li class="navbar__item">
+                    <a href="nosotros.html" class="navbar__links">Nosotros</a>
+                </li>
+                <li class="navbar__item dropdown">
+                    <a href="productos.html" class="navbar__links">Productos</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="categoria-lentes.html">Lentes de contacto</a></li>
+                        <li><a href="categoria-equipos.html">Equipos</a></li>
+                        <li><a href="categoria-quirurgicos.html">Quirúrgicos</a></li>
+                        <li><a href="categoria-soluciones.html">Soluciones</a></li>
+                    </ul>
+                </li>
+                <li class="navbar__item">
+                    <a href="contacto.html" class="navbar__links">Contacto</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="catalogos.html" class="navbar__links">Catálogos</a>
+                </li>
+                <li class="navbar__item navbar__search">
+                    <button id="searchBtn" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Search Modal -->
+    <div id="searchModal" class="search-modal">
+        <form id="searchForm">
+            <input type="text" id="searchInput" placeholder="Buscar productos..." autocomplete="off">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </div>
+
+    <!-- Body  -->
+<section class="proximamente">
+  <h1>Lentes Importados</h1>
+  <span class="proximamente__badge">Próximamente</span>
+  <p>Estamos preparando nuestra sección de lentes importados. Mientras tanto, contáctanos y con gusto te enviamos la información que necesites.</p>
+  <a href="contacto.html" class="main__btn">Contáctanos</a>
+
+    <!-- Footer -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-column">
+      <h3>Compañía</h3>
+      <ul>
+        <li><a href="nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="catalogos.html">Catálogo</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Contacto</h3>
+      <p>Laboratorios Multilente</p>
+      <p>Email : <a href="mailto:multilente@opas-multilente.com">multilente@opas-multilente.com</a></p>
+      <p>Teléfono: (212) 202-1300</p>
+      <p>Opas</p>
+      <p>Email : <a href="mailto:pedidos@opas-multilente.com">pedidos@opas-multilente.com</a></p>
+      <p>Teléfono: (212) 202-1100</p>
+    </div>
+
+    <div class="footer-column">
+      <h3>Síguenos</h3>
+      <p>
+        <a href="https://www.instagram.com/labmultilente?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a><br>
+      </p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Opas Multilente. All rights reserved.</p>
+  </div>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
+
