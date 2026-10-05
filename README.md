@@ -64,6 +64,7 @@ HTML5, CSS3 (flexbox, grid, media queries), vanilla JavaScript, Font Awesome, Go
 - The catalog page is a "coming soon" placeholder
 - Search is simple keyword matching and only covers the category cards
 - Images could be compressed and given more descriptive alt text, and each page could use a proper accessibility pass
+- Mobile view could be fixed to showcase the information and images better. Dimensions aren't quite right for images and text placement
 Run locally
 
 No build step. From the project folder:
@@ -73,15 +74,15 @@ python3 -m http.server 8000
 Then open http://localhost:8000. You can also use the VS Code Live Server extension.
 
 Project structure
-index.html. 
-nosotros.html. 
-productos.html. 
-categoria-*.html. 
-contacto.html. 
-catalogos.html. 
-css/styles.css. 
-js/app.js. 
-images/. 
+index.html
+nosotros.html 
+productos.html 
+categoria-*.html 
+contacto.html
+catalogos.html 
+css/styles.css 
+js/app.js
+images/ 
 
 ### Notes
 Product photos and the logo belong to their respective owners and are used here for demonstration only. 
