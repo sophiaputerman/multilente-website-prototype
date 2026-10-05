@@ -73,15 +73,15 @@ python3 -m http.server 8000
 Then open http://localhost:8000. You can also use the VS Code Live Server extension.
 
 Project structure
-index.html
-nosotros.html
-productos.html
-categoria-*.html
-contacto.html
-catalogos.html
-css/styles.css
-js/app.js
-images/
+index.html. 
+nosotros.html. 
+productos.html. 
+categoria-*.html. 
+contacto.html. 
+catalogos.html. 
+css/styles.css. 
+js/app.js. 
+images/. 
 
 ### Notes
 Product photos and the logo belong to their respective owners and are used here for demonstration only. 
